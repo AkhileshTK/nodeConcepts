@@ -9,7 +9,7 @@ import fs from 'fs'
 // console.log(data);
             //   or
 // let data=fs.readFileSync("./demo.txt")
-// console.log(data.toString("utf-8"));
+// console.log(data.toString("utf-8"));  buffer data
 
 
 
@@ -21,3 +21,13 @@ import fs from 'fs'
 
 // fs.mkdirSync("./dir")
 // fs.rmdirSync("./dir")
+
+// fs.mkdirSync("react_app")
+// fs.mkdirSync("./react_app/public")
+// fs.mkdirSync("./react_app/src")
+// fs.mkdirSync("./react_app/src/components")
+// fs.mkdirSync("./react_app/src/components/home.html")  //avoid
+// fs.writeFileSync("./react_app/src/components/home.html")
+// fs.mkdirSync("./react_app/src/main.html")
+fs.mkdirSync("./react_app/src/index.html")
+
